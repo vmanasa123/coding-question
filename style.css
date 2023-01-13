@@ -1,0 +1,150 @@
+.body{
+    background-color:lightblue;
+}
+
+.boxes{
+    justify-content:right;
+   display:flex;
+   
+}
+.box{
+border:1px solid black;
+width: 80px;
+height: 60px;
+background-color:white;
+border-radius:6px;
+font-size: 20px;
+position:relative;
+bottom:75px;
+}
+
+.button{
+    background-color:blue;
+    height: 50px;
+    width: 70px;
+    border-radius:-35px;
+    margin: 10px;
+    font-size: 20px;
+   color:black;
+ border: 2px solid yellow;
+
+}
+
+.btnn{
+     background-color: lightpink;
+    color:black;
+    border :1px solid lightpink;
+}
+
+.text{
+    color: black;
+    background-color:lightblue ;
+}
+
+
+.pic{
+    position: relative;
+   right:-700px;
+   top: -150px;
+    justify-content:right;
+}
+
+.cards{
+    justify-content:space-evenly;
+    display: flex;
+}
+.card{
+    border: 1px solid black;
+    height: 230px;
+    width: 160px;
+   border-radius: 15px;
+}
+
+.btn{
+    background-color: black;
+    height: 50px;
+    width: 70px;
+    border-radius:-35px;
+    margin: 10px;
+    font-size: 20px;
+   color:white;
+
+}
+
+.h3{
+  justify-content:center;
+   position: relative;
+
+}
+
+media screen and (max-width:500px){
+    .body{
+        background-color:lightblue;
+    }
+    .boxes{
+        justify-content:right;
+       display:flex;
+       
+    }
+    .box{
+    border:1px solid black;
+    width: 80px;
+    height: 60px;
+    background-color:white;
+    border-radius:6px;
+    font-size: 20px;
+    position:relative;
+    bottom:75px;
+    }
+    
+    .button{
+        background-color:lightskyblue;
+        height: 50px;
+        width: 70px;
+        border-radius:-35px;
+        margin: 10px;
+        font-size: 20px;
+       color:black;
+    
+    }
+    
+  
+    
+    
+    
+    .pic{
+        position: relative;
+       right:-700px;
+       top: -150px;
+        justify-content:right;
+    }
+    
+    .cards{
+        justify-content:space-evenly;
+        display: flex;
+    }
+    .card{
+        border: 1px solid black;
+        height: 230px;
+        width: 160px;
+       border-radius: 15px;
+    }
+    
+    .btn{
+        background-color: black;
+        height: 50px;
+        width: 70px;
+        border-radius:-35px;
+        margin: 10px;
+        font-size: 20px;
+       color:white;
+    
+    }
+    
+    
+    .h3{
+      justify-content:center;
+       position: relative;
+    
+    }
+    }
